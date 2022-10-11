@@ -19,7 +19,7 @@ const diagonalDifference = (arr)=>{
     let difference = firstDiagonal - secondDiagonal;
     return difference >= 0 ? difference : difference * -1; 
 }
-
+//did again for practice
 console.log(diagonalDifference([[1,2,3],
     [4,5,6],
     [7,8,9]]));
